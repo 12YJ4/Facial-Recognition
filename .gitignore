@@ -1,0 +1,40 @@
+# 编译输出目录
+build*/
+build-*/
+debug/
+release/
+
+# qmake 生成
+*.pro.user
+*.pro.user.*
+.qmake.stash
+Makefile
+Makefile.*
+
+# CMake 生成
+CMakeLists.txt.user*
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# 目标文件
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# 运行生成的数据库和模型文件（千万别传上去）
+*.db
+*.xml
+export_data.txt
+
+# IDE 和系统文件
+.vscode/
+.idea/
+*.autosave
+.DS_Store
+Thumbs.db
